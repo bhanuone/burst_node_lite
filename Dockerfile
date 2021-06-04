@@ -1,6 +1,6 @@
-MAINTAINER Bhanu Prakash
-
 FROM alpine:3.13.5 AS build
+
+MAINTAINER Bhanu Prakash
 
 RUN apk add curl && apk add wget && apk add p7zip
 
